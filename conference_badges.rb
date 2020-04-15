@@ -27,7 +27,7 @@ def printer(array)
   puts array1
 
   array2 = assign_rooms(array)
-
-  puts array2
+  
+  array2.each {|ele| puts ele}
   
 end
