@@ -24,10 +24,11 @@ end
 
 def printer(array)
   array1 = batch_badge_creator(array)
-  puts array1
+  
+  array1.each {|ele| puts ele }
 
   array2 = assign_rooms(array)
   
-  puts array2.each {|ele| ele}
+  array2.each {|ele| puts ele}
   
 end
