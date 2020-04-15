@@ -22,6 +22,8 @@ def assign_rooms(speakers)
   
 end
 
-def printer
+def printer(array1, array2)
+  
+  array1.each {|ele| puts "ele" }
   
 end
