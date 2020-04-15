@@ -13,6 +13,6 @@ end
 
 def assign_rooms(spekaers)
   
-  speakers.each_with_index
+  speakers.each_with_index { |speaker, i|  
   
 end
